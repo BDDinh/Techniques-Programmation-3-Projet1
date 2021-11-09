@@ -34,20 +34,52 @@ export const FORFAITS: Forfait[] = [
         vedette : true
     },
     {
-        destination : 'Mexique',
-        villeDepart : 'Lévis', 
+        destination : 'Paris',
+        villeDepart : 'Toronto', 
         hotel :{
-            nom : 'Club Med Hotel',
+            nom : 'Le Paris Hotel',
             coordonnees : '...',
             nombreEtoiles : 4,
             nombreChambres : 160,
-            caracteristiques : ['Face à la plage', 'Ascenseur', 'Miniclub']
+            caracteristiques : ['Ascenseur', 'Miniclub']
         },
         dateDepart : '2021-12-22',
         dateRetour : '2022-01-30',
         prix : 5500,
         rabais : 100,
         vedette : false
+    },
+    {
+        destination : 'Londres (UK)',
+        villeDepart : 'Montreal', 
+        hotel :{
+            nom : 'The Majesty Hotel',
+            coordonnees : '...',
+            nombreEtoiles : 5,
+            nombreChambres : 200,
+            caracteristiques : ['Ascenseur', 'Miniclub']
+        },
+        dateDepart : '2021-11-01',
+        dateRetour : '2022-01-30',
+        prix : 15500,
+        rabais : 100,
+        vedette : true
+    },
+    {
+        destination : 'Barcelone',
+        villeDepart : 'Montreal', 
+        hotel :{
+            nom : 'The Hip Hotel',
+            coordonnees : '...',
+            nombreEtoiles : 5,
+            nombreChambres : 200,
+            caracteristiques : ['Ascenseur', 'Miniclub']
+        },
+        dateDepart : '2022-11-01',
+        dateRetour : '2023-01-30',
+        prix : 12500,
+        rabais : 100,
+        vedette : true
     },
     {
         destination : 'Saint-Barth',
@@ -63,6 +95,6 @@ export const FORFAITS: Forfait[] = [
         dateRetour : '2022-01-01',
         prix : 4500,
         rabais : 50,
-        vedette : true
+        vedette : false
     }
 ]
