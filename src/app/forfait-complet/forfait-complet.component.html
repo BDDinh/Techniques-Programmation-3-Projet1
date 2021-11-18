@@ -1,1 +1,30 @@
-<p>forfait-complet works!</p>
+<p>{{forfaitCible.destination}}</p>
+
+<!-- https://edupala.com/how-to-implement-angular-material-card/ -->
+
+<div class="container">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>
+        <h2>{{forfaitCible.destination}}</h2>
+      </mat-card-title>
+      <mat-card-subtitle>
+        <h4> Angular material subtitle</h4>
+      </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      Material card content .. goes here you can add any paragraph,
+      image, form and others
+    </mat-card-content>
+
+    <mat-card-actions align="end">
+      <button mat-stroked-button> Cancel </button>
+      <button mat-stroked-button> Save</button>
+    </mat-card-actions>
+
+    <mat-card-footer>
+      <h4>Mat card footer</h4>
+    </mat-card-footer>
+  </mat-card>
+</div>

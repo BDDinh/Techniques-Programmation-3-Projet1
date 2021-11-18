@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Forfait } from '../interfaces/forfait';
 
 @Component({
   selector: 'app-forfait-complet',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./forfait-complet.component.css']
 })
 export class ForfaitCompletComponent implements OnInit {
+  @Input() forfaitCible: Forfait = {} as Forfait;
 
   constructor() { }
 

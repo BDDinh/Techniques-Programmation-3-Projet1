@@ -7,6 +7,10 @@ import { ForfaitMiniComponent } from './forfait-mini/forfait-mini.component';
 import { ForfaitCompletComponent } from './forfait-complet/forfait-complet.component';
 import { EtoileComponent } from './etoile/etoile.component';
 
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +20,10 @@ import { EtoileComponent } from './etoile/etoile.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatButtonModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

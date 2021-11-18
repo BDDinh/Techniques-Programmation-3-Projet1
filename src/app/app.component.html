@@ -12,6 +12,10 @@
   <app-forfait-mini [forfaitCible]=forfait></app-forfait-mini>
 </div>
 
+<div *ngFor="let forfait of forfaits;">
+  <app-forfait-complet [forfaitCible]=forfait></app-forfait-complet>
+</div>
+
 
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
