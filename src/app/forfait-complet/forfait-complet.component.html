@@ -1,5 +1,3 @@
-<p>{{forfaitCible.destination}}</p>
-
 <!-- https://edupala.com/how-to-implement-angular-material-card/ -->
 
 <div class="container">
@@ -18,10 +16,7 @@
       image, form and others
     </mat-card-content>
 
-    <mat-card-actions align="end">
-      <button mat-stroked-button> Cancel </button>
-      <button mat-stroked-button> Save</button>
-    </mat-card-actions>
+    <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false"></ngb-rating>
 
     <mat-card-footer>
       <h4>Mat card footer</h4>

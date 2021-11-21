@@ -8,10 +8,12 @@ import { Forfait } from '../interfaces/forfait';
 })
 export class ForfaitCompletComponent implements OnInit {
   @Input() forfaitCible: Forfait = {} as Forfait;
+  starRating:number = 0;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.starRating = this.forfaitCible.hotel.nombreEtoiles;
   }
 
 }
