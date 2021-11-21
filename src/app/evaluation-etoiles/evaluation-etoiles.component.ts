@@ -38,4 +38,4 @@ export class EvaluationEtoilesComponent implements OnInit {
   }
 
 }
-// https://betterprogramming.pub/how-to-create-a-star-rating-component-in-angular-ff32234ea531
+// Source: https://betterprogramming.pub/how-to-create-a-star-rating-component-in-angular-ff32234ea531

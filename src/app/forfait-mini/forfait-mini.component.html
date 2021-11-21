@@ -1,3 +1,12 @@
 <div *ngIf="forfaitCible.vedette">
   <p>{{forfaitCible.destination}}</p>
+  <p>{{forfaitCible.villeDepart}}</p>
+  <p>{{forfaitCible.hotel.nom}}</p>
+
+  <app-evaluation-etoiles [rating]="evalationNombreEtoiles"></app-evaluation-etoiles>
+
+  <p>{{forfaitCible.prix}}</p>
+  <p>{{forfaitCible.rabais}}</p>
+  <p>{{forfaitCible.dateDepart}}</p>
+  <p>{{duree}}</p>
 </div>
