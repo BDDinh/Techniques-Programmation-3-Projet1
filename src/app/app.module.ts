@@ -9,23 +9,29 @@ import { ForfaitCompletComponent } from './forfait-complet/forfait-complet.compo
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { EvaluationEtoilesComponent } from './evaluation-etoiles/evaluation-etoiles.component';
+import { FormGestionForfaitsComponent } from './form-gestion-forfaits/form-gestion-forfaits.component';
+import { FormRechercheComponent } from './form-recherche/form-recherche.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ForfaitMiniComponent,
-    ForfaitCompletComponent
+    ForfaitCompletComponent,
+    EvaluationEtoilesComponent,
+    FormGestionForfaitsComponent,
+    FormRechercheComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatCardModule,
     MatButtonModule,
-    NoopAnimationsModule,
-    NgbModule
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+// https://betterprogramming.pub/how-to-create-a-star-rating-component-in-angular-ff32234ea531
