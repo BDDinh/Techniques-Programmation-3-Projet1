@@ -5,7 +5,7 @@ export const FORFAITS: Forfait[] = [
         destination : 'Mexique',
         villeDepart : 'Québec', 
         hotel :{
-            nom : 'nom...',
+            nom : 'Hotel Mexico',
             coordonnees : '123 rue XYZ',
             nombreEtoiles : 3.5,
             nombreChambres : 100,
