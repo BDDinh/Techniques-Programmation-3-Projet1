@@ -6,31 +6,31 @@ export const FORFAITS: Forfait[] = [
         villeDepart : 'Québec', 
         hotel :{
             nom : 'nom...',
-            coordonnees : '...',
-            nombreEtoiles : 3,
+            coordonnees : '123 rue XYZ',
+            nombreEtoiles : 3.5,
             nombreChambres : 100,
             caracteristiques : ['Face à la plage', 'Ascenseur', 'Miniclub']
         },
         dateDepart : '2020-12-15',
         dateRetour : '2020-12-31',
         prix : 1500,
-        rabais : 100,
+        rabais : 0,
         vedette : false
     },
     {
-        destination : 'Mexique',
+        destination : 'Paraguay',
         villeDepart : 'Montréal', 
         hotel :{
             nom : 'Hilton Cancun',
-            coordonnees : '...',
-            nombreEtoiles : 2,
+            coordonnees : '567 rue XYZ',
+            nombreEtoiles : 2.5,
             nombreChambres : 50,
             caracteristiques : ['Face à la plage', 'Ascenseur', 'Miniclub']
         },
         dateDepart : '2020-12-20', 
         dateRetour : '2021-01-10',
         prix : 2500,
-        rabais : 500,
+        rabais : 0,
         vedette : true
     },
     {
@@ -38,7 +38,7 @@ export const FORFAITS: Forfait[] = [
         villeDepart : 'Toronto', 
         hotel :{
             nom : 'Le Paris Hotel',
-            coordonnees : '...',
+            coordonnees :  '111 rue AAA',
             nombreEtoiles : 4,
             nombreChambres : 160,
             caracteristiques : ['Ascenseur', 'Miniclub']
@@ -46,7 +46,7 @@ export const FORFAITS: Forfait[] = [
         dateDepart : '2021-12-22',
         dateRetour : '2022-01-30',
         prix : 5500,
-        rabais : 100,
+        rabais : 0,
         vedette : false
     },
     {
@@ -54,7 +54,7 @@ export const FORFAITS: Forfait[] = [
         villeDepart : 'Montreal', 
         hotel :{
             nom : 'The Majesty Hotel',
-            coordonnees : '...',
+            coordonnees :  '222 rue BBB',
             nombreEtoiles : 5,
             nombreChambres : 200,
             caracteristiques : ['Ascenseur', 'Miniclub']
@@ -70,15 +70,15 @@ export const FORFAITS: Forfait[] = [
         villeDepart : 'Montreal', 
         hotel :{
             nom : 'The Hip Hotel',
-            coordonnees : '...',
-            nombreEtoiles : 5,
+            coordonnees : '333 rue CCC',
+            nombreEtoiles : 4.5,
             nombreChambres : 200,
             caracteristiques : ['Ascenseur', 'Miniclub']
         },
-        dateDepart : '2022-11-01',
-        dateRetour : '2023-01-30',
+        dateDepart : '2022-12-01',
+        dateRetour : '2023-07-30',
         prix : 12500,
-        rabais : 100,
+        rabais : 0,
         vedette : true
     },
     {
@@ -86,8 +86,8 @@ export const FORFAITS: Forfait[] = [
         villeDepart : 'Montréal', 
         hotel :{
             nom : 'Best Inn',
-            coordonnees : '...',
-            nombreEtoiles : 5,
+            coordonnees : '444 rue DDD',
+            nombreEtoiles : 3.5,
             nombreChambres : 50,
             caracteristiques : ['Face à la plage', 'Ascenseur', 'Miniclub']
         },
