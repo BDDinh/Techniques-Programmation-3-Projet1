@@ -12,8 +12,8 @@
     <mat-card-content>
       <p>Hotel: {{forfaitCible.hotel.nom}}</p>
       <p>Coordonnées: {{forfaitCible.hotel.coordonnees}}</p>
-      <p>Nom de chambres: {{forfaitCible.hotel.nombreChambres}}</p>
-      <p>Caractéristiques: {{forfaitCible.hotel.caracteristiques}}</p>
+      <p>Nombre de chambres: {{forfaitCible.hotel.nombreChambres}}</p>
+      <p>Caractéristiques: {{forfaitCible.hotel.caracteristiques.join(", ") }}</p>
 
       <p>
         <app-evaluation-etoiles [rating]="evalationNombreEtoiles"></app-evaluation-etoiles>

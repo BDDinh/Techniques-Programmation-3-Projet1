@@ -34,4 +34,4 @@ import { FormRechercheComponent } from './form-recherche/form-recherche.componen
 })
 export class AppModule { }
 
-// https://betterprogramming.pub/how-to-create-a-star-rating-component-in-angular-ff32234ea531
+//  git push -u origin master
