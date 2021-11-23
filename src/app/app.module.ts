@@ -6,12 +6,13 @@ import { AppComponent } from './app.component';
 import { ForfaitMiniComponent } from './forfait-mini/forfait-mini.component';
 import { ForfaitCompletComponent } from './forfait-complet/forfait-complet.component';
 
-import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { EvaluationEtoilesComponent } from './evaluation-etoiles/evaluation-etoiles.component';
 import { FormGestionForfaitsComponent } from './form-gestion-forfaits/form-gestion-forfaits.component';
 import { FormRechercheComponent } from './form-recherche/form-recherche.component';
+import { ForfaitMiniCandidatPipe } from './forfait-mini-candidat.pipe';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { FormRechercheComponent } from './form-recherche/form-recherche.componen
     ForfaitCompletComponent,
     EvaluationEtoilesComponent,
     FormGestionForfaitsComponent,
-    FormRechercheComponent
+    FormRechercheComponent,
+    ForfaitMiniCandidatPipe,
+    ForfaitMiniCandidatPipe
   ],
   imports: [
     BrowserModule,

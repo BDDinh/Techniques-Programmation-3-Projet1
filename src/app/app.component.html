@@ -8,8 +8,8 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <div class="row justify-content-center align-items-center">
-  <div *ngFor="let forfait of forfaits">
-    <app-forfait-mini [forfaitCible]=forfait *ngIf="forfait.vedette" class="col-3"></app-forfait-mini>
+  <div *ngFor="let forfait of forfaits | forfaitMiniFilter ">
+    <app-forfait-mini [forfaitCible]=forfait class="col-3"></app-forfait-mini>
   </div>
 </div>
 
